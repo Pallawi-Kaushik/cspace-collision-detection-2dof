@@ -4,6 +4,18 @@ A MATLAB implementation of configuration space (C-space) mapping and collision-f
 
 ---
 
+## Results Preview
+
+![C-Space Map and Workspace Visualization](complete_visualization.png)
+
+> **(a)** Binary C-Space map — white = collision-free (74.7%), dark = collision regions.
+> **(b)** Workspace environment with two defined polygonal obstacles.
+> **(c)** Example robot configuration showing base, elbow joint, and end-effector position.
+
+📄 [View full results with code and visualizations (PDF)](CollisionCheckingTask.pdf)
+
+---
+
 ## Problem Statement
 
 Given a 2-DOF planar robotic arm operating in a workspace with obstacles, compute which joint configurations are collision-free, visualise the configuration space, and identify safe paths between configurations — without relying on trial-and-error forward kinematics at runtime.
